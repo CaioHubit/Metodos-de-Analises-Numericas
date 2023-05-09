@@ -6,13 +6,14 @@
   <h2>🚀 Seja bem-vindo ao repositório de Análise Numérica!</h2>
   <h3>💡 Sobre a Análise Numérica</h3>
   <p>A Análise Numérica é um campo fascinante que busca desvendar os segredos dos números para resolver problemas matemáticos complexos. É uma jornada de exploração, onde algoritmos e técnicas computacionais são utilizados para obter soluções aproximadas para problemas que não possuem soluções analíticas exatas. Aqui, mergulharemos fundo no mundo da matemágica dos números!</p>
-  <h3>🔍 Explorando os Conceitos Básicos</h3>
-  <h4>🔢 Equações Ordinárias</h4>
-  <p>Equações Ordinárias (EO) são a base de tudo! Elas descrevem relações entre uma função desconhecida e suas derivadas em relação a uma única variável independente. Vamos explorar as EO's e dominar o poder das equações diferencias ordinárias!</p>
-  <h4>🔑 Problemas de Valor Inicial</h4>
-  <p>Os Problemas de Valor Inicial (PVI's) são os desafios que nos aguardam. Aqui, fornecemos as condições iniciais e o objetivo é encontrar a solução que satisfaça essas condições. Prepare-se para enfrentar esses problemas e desvendar seus segredos!</p>
-  <h4>⚡ Problemas com Mais de uma Ordem</h4>
-  <p>Agora, vamos elevar o nível! Os problemas com mais de uma ordem envolvem equações diferenciais com derivadas de ordem superior. Esses desafios mais complexos exigem técnicas avançadas para desvendar suas soluções. Prepare-se para mergulhar em problemas matemáticos emocionantes!</p>
+  <h3>🔍 Explorando os Conceitos Básicos(Apêndice)</h3>
+ <h3>🔢 Equações Ordinárias</h3>
+<p>As Equações Ordinárias (EO) são a base de tudo! Elas descrevem relações entre uma função desconhecida e suas derivadas em relação a uma única variável independente. Em outras palavras, as EO envolvem a busca por uma função que satisfaça uma relação específica com suas derivadas. Essas equações são fundamentais em muitos campos da matemática e da física, permitindo-nos compreender e modelar fenômenos complexos.</p>
+<h3>🔑 Problemas de Valor Inicial</h3>
+<p>Os Problemas de Valor Inicial (PVI's) são os desafios que nos aguardam nessa jornada numérica. Aqui, fornecemos as condições iniciais de uma EO e o objetivo é encontrar a solução que satisfaça essas condições. Em outras palavras, temos uma equação diferencial e um ponto inicial, e devemos encontrar a função que satisfaça a equação e as condições iniciais. Os PVI's são comumente encontrados em problemas físicos e engenharia, e dominar sua resolução é essencial para avançarmos no mundo da análise numérica.</p>
+<h3>⚡ Problemas com Mais de uma Ordem</h3>
+<p>Agora, vamos elevar o nível! Os problemas com mais de uma ordem envolvem equações diferenciais com derivadas de ordem superior. Nesses desafios mais complexos, não estamos lidando apenas com a função desconhecida e suas derivadas de primeira ordem, mas também com derivadas de ordem superior. Resolver esses problemas requer técnicas avançadas, como métodos numéricos de alta ordem e manipulação simbólica. Esses problemas são encontrados em diversas áreas, como física teórica, engenharia estrutural e ciências da computação, e nos desafiam a explorar as fronteiras da matemática e da computação.</p>
+<p>Prepare-se para mergulhar em problemas matemáticos emocionantes! Dominar as Equações Ordinárias, os Problemas de Valor Inicial e os Problemas com Mais de uma Ordem abrirá as portas para um mundo de descobertas e aplicações práticas. Vamos explorar, experimentar e desvendar os segredos dessas poderosas ferramentas matemáticas!</p>
   <h3>🔮 Desvendando a Matemágica Numérica</h3>
   <h4>✨ Resolução Numérica</h4>
   <p>A resolução numérica é o caminho para desvendar os mistérios da Análise Numérica. Aqui, vamos explorar métodos mágicos, como o Método de Euler, Método de Runge-Kutta, Método de Diferenças Finitas e muito mais. Esses métodos nos ajudarão a aproximar as soluções das equações e desvendar seus segredos ocultos!</p>
