@@ -33,5 +33,37 @@
   <p>O Método de Runge-Kutta é um método numérico mais avançado para resolver equações diferenciais ordinárias. Ele é baseado na ideia de aproximar a solução em diferentes pontos dentro de um intervalo e combinar essas aproximações ponderadamente para obter um resultado mais preciso.</p>
   <p>Esse método é mais complexo do que o Método de Euler, mas oferece maior precisão. Existem diferentes variantes do Método de Runge-Kutta, como o Runge-Kutta de segunda ordem (RK2) e o Runge-Kutta de quarta ordem (RK4), que são amplamente utilizados na prática.</p>
   <p>Em nosso repositório, você encontrará exemplos e implementações práticas desses métodos, além de outros métodos numéricos, para aprimorar suas habilidades em Análise Numérica e resolver problemas matemáticos de forma eficiente. Cada método tem suas características e aplicações específicas, portanto, explorar essas técnicas ampliará seu conhecimento em Análise Numérica.
+    <h2>📋Conclusões e Resultados</h2>
+    <h3>🔍 Método da Bisseção</h3>
+    <p>🎯 O Método da Bisseção é ideal para encontrar raízes de uma função em um intervalo específico. Se você precisa encontrar o ponto onde a função se anula, esse é o método a ser usado! Embora sua convergência possa ser mais lenta em comparação com outros métodos, ele garante a convergência para uma raiz, desde que a função seja contínua e mude de sinal no intervalo considerado.</p>
+    <h4>🚧 Limitações:
+      <ul>
+  <li>Convergência lenta em comparação com outros métodos.</li>
+  <li>Requer que a função seja contínua e mude de sinal no intervalo considerado.</li>
+</ul>
+  <h3>🔍 Método de Newton</h3>
+  <p>⚡ O Método de Newton é incrível para encontrar raízes de funções não lineares. Se você tem uma equação complicada e precisa determinar onde ela se iguala a zero, este é o método certo para você! Com sua convergência rápida, ele pode encontrar uma raiz próxima ao ponto inicial fornecido. No entanto, lembre-se de escolher um ponto inicial adequado e garantir a condição de convergência para obter resultados confiáveis.</p>
+      <h4>🚧 Limitações:
+      <ul>
+  <li>Depende da escolha de um ponto inicial adequado.</li>
+  <li>Pode divergir se a condição de convergência não for satisfeita.</li>
+</ul>
+  <h3>🔍 Método de Euler</h3>
+  <p>🚀 O Método de Euler é uma ferramenta valiosa para aproximar soluções de equações diferenciais ordinárias de primeira ordem. Se você está modelando fenômenos simples e precisa obter uma solução aproximada, este método é perfeito! No entanto, lembre-se de que a precisão do Método de Euler é limitada e erros de truncamento podem se acumular ao longo do tempo. Portanto, cuidado com a complexidade do problema que você está enfrentando! Ele é amplamente utilizado em problemas de física, como o lançamento de projéteis.</p>
+          <h4>🚧 Limitações:
+        <ul>
+  <li>Precisão limitada, especialmente com passos de discretização grandes.</li>
+  <li>Pode acumular erros de truncamento ao longo do tempo.</li>
+  <li>Não adequado para problemas com alta sensibilidade às condições iniciais ou comportamento oscilatório.</li>
+</ul>
+  <h3>🔍 Método de Runge-Kutta</h3>
+  <p>🌈 O Método de Runge-Kutta é um método mais avançado e poderoso para resolver equações diferenciais ordinárias. Se você precisa de maior precisão na aproximação da solução, especialmente para problemas mais complexos, este método é o que você procura! Existem diferentes variantes do Método de Runge-Kutta, como o Runge-Kutta de segunda ordem (RK2) e o Runge-Kutta de quarta ordem (RK4), que são amplamente utilizados na prática.</p>
+                  <h4>🚧 Limitações:
+            <ul>
+  <li>Computacionalmente mais intensivo em comparação com o Método de Euler.</li>
+  <li>O desempenho pode variar dependendo da ordem do método e do número de pontos avaliados.</li>
+</ul>
+  <h3>⚖️ Comparando a Precisão</h3>
+  <p>É importante lembrar que a precisão dos métodos numéricos pode variar dependendo do problema em questão. Em geral, o Método de Runge-Kutta tende a fornecer uma maior precisão em comparação com o Método de Euler. Quanto aos métodos de busca de raízes, como a Bisseção e o Método de Newton, sua precisão pode ser influenciada pela função específica que está sendo analisada. Portanto, é sempre recomendado considerar o contexto e as características do problema antes de escolher um método.</p>
 </body>
 </html
