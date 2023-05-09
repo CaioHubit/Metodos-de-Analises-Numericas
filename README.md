@@ -66,5 +66,21 @@
 </ul>
   <h3>⚖️ Comparando a Precisão</h3>
   <p>É importante lembrar que a precisão dos métodos numéricos pode variar dependendo do problema em questão. Em geral, o Método de Runge-Kutta tende a fornecer uma maior precisão em comparação com o Método de Euler. Quanto aos métodos de busca de raízes, como a Bisseção e o Método de Newton, sua precisão pode ser influenciada pela função específica que está sendo analisada. Portanto, é sempre recomendado considerar o contexto e as características do problema antes de escolher um método.</p>
+<details><summary><h2>📈Funções Comumente Usadas</h2></summary>
+    <h1>Funções de Malthus, Verhulst e Gompertz</h1>
+  <p>As funções de Malthus, Verhulst e Gompertz são modelos matemáticos amplamente utilizados para descrever o crescimento de populações ao longo do tempo. Essas funções são aplicadas em diversas áreas, incluindo a matemática, a biologia e a simulação. Vamos explorar brevemente cada uma delas:</p>
+  <h2>🌍Função de Malthus</h2>
+  <p>A função de Malthus foi proposta por Thomas Malthus, um economista e demógrafo, e é uma representação simplificada do crescimento populacional exponencial. Essa função assume que a taxa de crescimento de uma população é proporcional ao tamanho atual da população, sem levar em consideração limitações ou recursos finitos. Em termos matemáticos, a função de Malthus é expressa como:</p>
+  <p>f(t) = f(0) * e^(r * t)</p>
+  <p>Onde f(t) é o tamanho da população no tempo t, f(0) é o tamanho inicial da população, e r é a taxa de crescimento.</p>
+  <h2>🛡️Função de Verhulst</h2>
+  <p>A função de Verhulst, também conhecida como modelo logístico, foi proposta por Pierre-François Verhulst, um matemático e estatístico. Essa função leva em consideração a capacidade de suporte do ambiente, ou seja, a quantidade máxima de indivíduos que o ambiente pode sustentar. A função de Verhulst é expressa como:</p>
+  <p>f(t) = K / (1 + (K - f(0)) / (f(0) * e^(r * t)))</p>
+  <p>Onde f(t) é o tamanho da população no tempo t, f(0) é o tamanho inicial da população, K é a capacidade de suporte e r é a taxa de crescimento.</p>
+  <h2>⚙️Função de Gompertz</h2>
+  <p>A função de Gompertz foi proposta por Benjamin Gompertz, um matemático e atuário. Essa função é uma extensão da função de Verhulst e leva em consideração o envelhecimento e a mortalidade da população. Ela descreve um crescimento exponencial inicial que diminui ao longo do tempo devido a fatores como competição, escassez de recursos e aumento da taxa de mortalidade. A função de Gompertz é expressa como:</p>
+  <p>f(t) = K * e^(-e^(-r * (t - t0)))</p>
+  <p>Onde f(t) é o tamanho da população no tempo t, K é a capacidade de suporte, r é a taxa de crescimento e t0 é um parâmetro de deslocamento.</p>
+  <p>Essas funções são utilizadas na matemática para modelar o crescimento populacional ao longo do tempo, considerando diferentes                 
 </body>
 </html
