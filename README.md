@@ -34,9 +34,13 @@
   <p>O Método de Runge-Kutta é um método numérico mais avançado para resolver equações diferenciais ordinárias. Ele é baseado na ideia de aproximar a solução em diferentes pontos dentro de um intervalo e combinar essas aproximações ponderadamente para obter um resultado mais preciso.</p>
   <p>Esse método é mais complexo do que o Método de Euler, mas oferece maior precisão. Existem diferentes variantes do Método de Runge-Kutta, como o Runge-Kutta de segunda ordem (RK2) e o Runge-Kutta de quarta ordem (RK4), que são amplamente utilizados na prática.</p>
   <p>Em nosso repositório, você encontrará exemplos e implementações práticas desses métodos, além de outros métodos numéricos, para aprimorar suas habilidades em Análise Numérica e resolver problemas matemáticos de forma eficiente. Cada método tem suas características e aplicações específicas, portanto, explorar essas técnicas ampliará seu conhecimento em Análise Numérica.
-    <h2>📋Conclusões e Resultados</h2>
-    <h3>🔍 Método da Bisseção</h3>
-    <p>🎯 O Método da Bisseção é ideal para encontrar raízes de uma função em um intervalo específico. Se você precisa encontrar o ponto onde a função se anula, esse é o método a ser usado! Embora sua convergência possa ser mais lenta em comparação com outros métodos, ele garante a convergência para uma raiz, desde que a função seja contínua e mude de sinal no intervalo considerado.</p>
+  <h3>Polinômio</h3>
+  <p>A importância do Polinômio de Lagrange reside na sua capacidade de fornecer uma ferramenta poderosa para interpolação e aproximação de dados. Ele permite estimar valores desconhecidos em um conjunto de dados conhecidos com base em uma função polinomial suave que se ajusta aos pontos fornecidos. A dedução do Polinômio de Lagrange envolve a utilização de uma base de polinômios específica, conhecida como base de Lagrange. Essa base é construída a partir dos pontos conhecidos e seus respectivos valores. O Polinômio de Lagrange é uma combinação linear desses polinômios da base, ponderada pelos valores da função nos pontos conhecidos.</p>
+  <h4>🏋️‍♀️Método do Trapézio</h4>
+  <p>A fórmula do método do Trapézio é: &int;<sub>a</sub><sup>b</sup> f(x) dx ≈ h/2 * (f(a) + f(b))</p>
+  <h2>📋Conclusões e Resultados</h2>
+  <h3>🔍 Método da Bisseção</h3>
+  <p>🎯 O Método da Bisseção é ideal para encontrar raízes de uma função em um intervalo específico. Se você precisa encontrar o ponto onde a função se anula, esse é o método a ser usado! Embora sua convergência possa ser mais lenta em comparação com outros métodos, ele garante a convergência para uma raiz, desde que a função seja contínua e mude de sinal no intervalo considerado.</p>
     <h4>🚧 Limitações:
       <ul>
   <li>Convergência lenta em comparação com outros métodos.</li>
@@ -81,6 +85,8 @@
   <p>A função de Gompertz foi proposta por Benjamin Gompertz, um matemático e atuário. Essa função é uma extensão da função de Verhulst e leva em consideração o envelhecimento e a mortalidade da população. Ela descreve um crescimento exponencial inicial que diminui ao longo do tempo devido a fatores como competição, escassez de recursos e aumento da taxa de mortalidade. A função de Gompertz é expressa como:</p>
   <p>f(t) = K * e^(-e^(-r * (t - t0)))</p>
   <p>Onde f(t) é o tamanho da população no tempo t, K é a capacidade de suporte, r é a taxa de crescimento e t0 é um parâmetro de deslocamento.</p>
-  <p>Essas funções são utilizadas na matemática para modelar o crescimento populacional ao longo do tempo, considerando diferentes                 
+  <h3>Conteúdo de Exemplo</h3>
+  <h2>Integral Elíptica Kaplan</h2>
+  <p>É uma forma especial de integral elíptica que foi introduzida por Kaplan em 1972. A integral elíptica é uma função matemática que está relacionada ao estudo das elipses e outras curvas elípticas. Em resumo ela é uma generalização da integral elíptica clássica, que é uma função definida como a integral de uma função racional de x e da raiz quadrada de um polinômio cúbico ou quartico de x. A integral elíptica clássica é amplamente estudada e utilizada em diversos ramos da matemática, física e engenharia.</p)
 </body>
 </html
